@@ -30,7 +30,7 @@
 #include <linux/log2.h>
 #include <linux/dynamic_debug.h>
 
-#include "dvb_math.h"
+#include "media/dvb_math.h"
 #include "media/dvb_frontend.h"
 #include "cxd2841er_wetek.h"
 #include "cxd2841er_priv_wetek.h"

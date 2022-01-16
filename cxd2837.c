@@ -29,7 +29,7 @@
 #include <linux/version.h>
 #include <linux/mutex.h>
 #include <asm/div64.h>
-#include "dvb_math.h"
+#include "media/dvb_math.h"
 #include "media/dvb_frontend.h"
 #include "cxd2837.h"
 
