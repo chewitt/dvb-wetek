@@ -31,7 +31,7 @@
 #include <linux/dynamic_debug.h>
 
 #include "dvb_math.h"
-#include "dvb_frontend.h"
+#include "media/dvb_frontend.h"
 #include "cxd2841er_wetek.h"
 #include "cxd2841er_priv_wetek.h"
 

@@ -27,7 +27,7 @@
 #include <linux/i2c.h>
 #include <linux/version.h>
 
-#include "dvb_frontend.h"
+#include "media/dvb_frontend.h"
 #include "avl6211_reg.h"
 #include "avl6211.h"
 

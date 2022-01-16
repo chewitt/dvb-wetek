@@ -22,7 +22,7 @@
 #define __MXL603_H__
 
 #include <linux/dvb/version.h>
-#include "dvb_frontend.h"
+#include "media/dvb_frontend.h"
 
 enum mxl603_if_freq {
 	MXL603_IF_3_65MHz,

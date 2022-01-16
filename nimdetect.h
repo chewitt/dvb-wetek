@@ -26,7 +26,7 @@
 #include <linux/init.h>
 #include <linux/dvb/version.h>
 #include <linux/platform_device.h>
-#include "dvb_frontend.h"
+#include "media/dvb_frontend.h"
 
 struct ts_input {
 	int                  mode;

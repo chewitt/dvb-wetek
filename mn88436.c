@@ -26,7 +26,7 @@
 #include <linux/i2c.h>
 #include <linux/version.h>
 #include <linux/dvb/frontend.h>
-#include "dvb_frontend.h"
+#include "media/dvb_frontend.h"
 #include "mn88436.h"
 
 struct mn88436_state { 

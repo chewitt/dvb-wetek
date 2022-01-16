@@ -28,7 +28,7 @@
 #include <linux/dvb/frontend.h>
 #include <linux/types.h>
 #include "ascot3.h"
-#include "dvb_frontend.h"
+#include "media/dvb_frontend.h"
 
 #define MAX_WRITE_REGSIZE 32
 

@@ -30,7 +30,7 @@
 #include "dvb_filter.h"
 #include "dvb_net.h"
 #include "dvb_ringbuffer.h"
-#include "dvb_frontend.h"
+#include "media/dvb_frontend.h"
 
 #include <linux/of.h>
 #include <linux/pinctrl/consumer.h>
