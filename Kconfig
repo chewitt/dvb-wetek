@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: GPL-2.0
+
+menu "Support for WeTek Play2 DVB Cards"
+        depends on ARCH_MESON || COMPILE_TEST
+
+config DVB_WETEKPLAY2
+        tristate "WeTek Play2 DVB Support"
+	default n
+        depends on DVB_CORE
+        help
+          Select Y or M to add support for WeTek Play2 DVB cards
+endmenu
