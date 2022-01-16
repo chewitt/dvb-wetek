@@ -52,7 +52,7 @@
 
 #include <linux/reset.h>
 
-#include "linux/amlogic/cpu_version.h"
+/* #include "linux/amlogic/cpu_version.h" */
 
 #include "wetek_dvb.h"
 #include "wetek_dvb_reg.h"

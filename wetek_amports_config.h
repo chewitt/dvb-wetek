@@ -18,7 +18,7 @@
 #ifndef AMPORTS_CONFIG_HHH
 #define AMPORTS_CONFIG_HHH
 #include <linux/kconfig.h>
-#include <linux/amlogic/cpu_version.h>
+/* #include <linux/amlogic/cpu_version.h> */
 /*
 value seem:
 arch\arm\plat-meson\include\plat\cpu.h
@@ -68,10 +68,10 @@ except g9tv,mtvd,m8b.
 */
 static inline bool has_Vpu_prot(void)
 {
-	if (is_meson_g9tv_cpu() || is_meson_mtvd_cpu() || is_meson_m8b_cpu())
+	/* if (is_meson_g9tv_cpu() || is_meson_mtvd_cpu() || is_meson_m8b_cpu())
 		return 0;
 	else if (get_cpu_type() >= MESON_CPU_MAJOR_ID_M8)
-		return 1;
+		return 1; */
 	return 0;
 }
 
@@ -81,8 +81,8 @@ others all don't have it.
 */
 static inline bool has_vdec2(void)
 {
-	if (is_meson_mtvd_cpu() || is_meson_m8_cpu())
-		return 1;
+	/* if (is_meson_mtvd_cpu() || is_meson_m8_cpu())
+		return 1; */
 	return 0;
 }
 
@@ -92,17 +92,17 @@ static inline bool has_hevc_vdec(void)
 	return 0;
 #endif
 	/*only tvd not have hevc,when later than m8 */
-	if (is_meson_mtvd_cpu())
+	/* if (is_meson_mtvd_cpu())
 		return 0;
 	else if (get_cpu_type() > MESON_CPU_MAJOR_ID_M8)
-		return 1;
+		return 1; */
 	return 0;
 }
 
 static inline bool has_hdec(void)
 {
-	if (get_cpu_type() >= MESON_CPU_MAJOR_ID_M8)
-		return 1;
+	/* if (get_cpu_type() >= MESON_CPU_MAJOR_ID_M8)
+		return 1; */
 	return 0;
 }
 
